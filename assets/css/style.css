@@ -46,3 +46,28 @@
     font-size: 16px;
     color: #000032;
 }
+
+#categories{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin: 12px;
+    margin: auto;
+}
+
+#categories > div > img{
+    height: 80px;
+    width: 80px;
+}
+
+#categories > div > p{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#categories > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
